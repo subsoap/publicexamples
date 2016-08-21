@@ -1,20 +1,118 @@
 <html>
 <head>
+	<!-- Mobile Specific Metas
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- FONT
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	<!-- CSS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+
 	<title>Defold Public Examples</title>
 </head>
 <body>
-	<a href="virtual_gamepad/index.html">VIRTUAL GAMEPAD</a></br>
-	<a href="menu_and_game/index.html">MENU AND GAME</a></br>
-	<a href="play_animation/index.html">PLAY ANIMATION</a></br>
-	<a href="rotate_collision_object/index.html">ROTATE COLLISION OBJECT</a></br>
-	<a href="click_game_object/index.html">CLICK GAME OBJECT</a></br>
-	<a href="pause_game/index.html">PAUSE GAME</a></br>
-	<a href="text_on_go/index.html">TEXT ON GAME OBJECTS<a></br>
-	<a href="rotate_and_move/index.html">ROTATE AND MOVE GAME OBJECT<a></br>
-	<a href="camera/index.html">CAMERA AND SPLIT SCREEN<a></br>
-	<p>
-		Examples created by britzl. Code here:</br>
-		<a href="https://github.com/britzl/publicexamples">https://github.com/britzl/publicexamples</a>
-	</p>
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+	<div class="row">
+		<h1>Defold examples, demos and games</h1>
+		<p>
+			This page contains a collection of examples, demos and games built using the <a href="http://www.defold.game" target="_blank">Defold game engine</a>. Many of the examples have been created in response to questions asked by users on the <a href="http://forum.defold.com" target="_blank">Defold public forum</a>.
+		</p>
+		<p>
+			All examples are created by <a href="https://github.com/britzl">britzl</a> unless explicitly stated otherwise. Graphics by <a href="http://www.kenney.nl" target="_blank">Kenney</a> unless explicitly stated otherwise.
+		</p>
+	</div>
+
+	<div class="row">
+		<!-- LEFT COLUMN -->
+		<div class="one-third column" style="margin-top: 5%">
+			<h3>Virtual gamepad</h3>
+			<img src="images/virtual_gamepad.png" width="200px"/>
+			<p>
+				Simple example showing how to create a virtual gamepad to control a player character</br>
+				<a href="virtual_gamepad/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/virtual_gamepad">SOURCE</a>
+			</p>
+
+			<h3>Menu and Game</h3>
+			<img src="images/menu_and_game.png" width="200px"/>
+			<p>
+				This example shows how to switch back and forth between a menu and a game using collection proxies.</br>
+				<a href="menu_and_game/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/menu_and_game">SOURCE</a>
+			</p>
+
+			<h3>Play animation</h3>
+			<img src="images/play_animation.png" width="200px"/>
+			<p>
+				This example shows how to use the "play_animation" message to start and stop sprite animations when the player character is moving.</br>
+				<a href="play_animation/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/play_animation">SOURCE</a>
+			</p>
+		</div>
+
+		<!-- MIDDLE COLUMN -->
+		<div class="one-third column" style="margin-top: 5%">
+			<h3>Rotate collision object</h3>
+			<img src="images/rotate_collision_object.png" width="200px"/>
+			<p>
+				This example shows how to rotate a dynamic collision object by applying opposing and offset forces.</br>
+				<a href="rotate_collision_object/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/rotate_collision_object">SOURCE</a>
+			</p>
+
+			<h3>Click on game objects</h3>
+			<img src="images/click_game_object.png" width="200px"/>
+			<p>
+				This example shows how to do input detection for game objects. The example takes into account sprite scale and offset.</br>
+				Graphics from the Phaser bunnymark sample.</br>
+				<a href="click_game_object/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/click_game_object">SOURCE</a>
+			</p>
+
+			<h3>Pause game</h3>
+			<img src="images/pause_game.png" width="200px"/>
+			<p>
+				This example shows how pause a game by changing the time_step of a collection proxy.</br>
+				<a href="pause_game/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/pause_game">SOURCE</a>
+			</p>
+		</div>
+
+		<!-- RIGHT COLUMN -->
+		<div class="one-third column" style="margin-top: 5%">
+			<h3>Text on game objects</h3>
+			<img src="images/text_on_go.png" width="200px"/>
+			<p>
+				This example shows how to display text on top of game objects.</br>
+				<a href="text_on_go/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/text_on_go">SOURCE</a>
+			</p>
+
+			<h3>Rotate and move</h3>
+			<img src="images/rotate_and_move.png" width="200px"/>
+			<p>
+				This example shows how to rotate a game object and move it in the direction it is facing.</br>
+				<a href="rotate_and_move/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/rotate_and_move">SOURCE</a>
+			</p>
+
+			<h3>Camera and split-screen</h3>
+			<img src="images/camera.png" width="200px"/>
+			<p>
+				This example shows how to replicate the camera component using a game object with a camera script. The example also shows how to use a setup with multiple cameras and render the cameras using a split-screen layout.</br>
+				<a href="camera/index.html">TRY IT!</a></br>
+				<a href="https://github.com/britzl/publicexamples/tree/master/examples/camera">SOURCE</a>
+			</p>
+		</div>
+	</div>
+</div>
+
 </body>
 </html>
