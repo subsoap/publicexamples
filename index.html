@@ -35,10 +35,11 @@
 					allTags.add(tag);
 					p.appendChild(document.createTextNode(tag + " "));
 				}
-				e.appendChild(p)
+				e.appendChild(p);
 			}
 
 			var filters = document.getElementById("filters")
+			allTags.delete("example");
 			allTags = Array.from(allTags).sort();
 			for (var tag of allTags) {
 				var a = document.createElement("A");
